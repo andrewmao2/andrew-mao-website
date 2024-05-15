@@ -54,7 +54,7 @@ const Data = () => {
             ></path>
         </svg>
         </h1>
-        <h3 className="home__subtitle">CS @ Georgia Tech</h3>
+        <h3 className="home__subtitle">CS + Business @ Georgia Tech</h3>
         <p className="home__description">
             Hey there! My name is Andrew Mao and I'm passionate about the intersection between people, technology, and business. 
             As a result, I'm pursuing a Computer Science degree from the 
