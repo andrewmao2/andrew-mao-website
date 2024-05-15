@@ -1,11 +1,10 @@
  /* Google Fonts */ 
-@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root {
   --header-height: 3rem;
 
    /* Colors */ 
-
   --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%); 
@@ -85,9 +84,10 @@ body {
 h1, h2, h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  text-decoration: none;
 }
 
-u1 {
+ul {
   list-style: none;
 }
 
@@ -121,6 +121,67 @@ img {
 .section__subtitle {
   text-align: center;
 }
+/* layout */
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* buttons */
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--title-color-dark);
+}
+
+.button__icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* breakpoints */
+  @media screen and (max-width: 992px) {
+    .container {
+      margin-left: var(--mb-1-5);
+      margin-right: var(--mb-1-5);
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+  }
+
+  @media screen and (max-width: 576px) {
+
+  }
+  
+  @media screen and (max-width: 350px) {
+    .container {
+      margin-left: var(--mb-1);
+      margin-right: var(--mb-1);
+    }
+  }
+
+
+
 
 
 
