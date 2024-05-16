@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify } from '@fortawesome/free-brands-svg-icons/faSpotify';
-
+import { faStrava } from '@fortawesome/free-brands-svg-icons/faStrava';
 
 const Social = () => {
   return (
@@ -18,8 +18,13 @@ const Social = () => {
           <a href="https://github.com/andrewmao2" className="home__social-icon" target="_blank" rel="noopener noreferrer">
             <i class="uil uil-github" style={{color: "#8F17AF"}}></i>
           </a>
+          <a href="https://www.strava.com/athletes/128959047" className="home__social-icon" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faStrava} style={{color: "#FDB208",}} />
+          </a>
       </div>
   )
 }
 
 export default Social
+
+
