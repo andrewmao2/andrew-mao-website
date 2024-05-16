@@ -47,10 +47,16 @@
 }
 
 /* Active link */
-.active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
+    transform: scale(1.1);
 }
+
+.active-link {
+    background-color: var(--active-link-background-color);
+}
+
+
 
 /* breakpoints */
 @media screen and (max-width: 768px) {
