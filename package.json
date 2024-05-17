@@ -1,5 +1,6 @@
 {
   "name": "andrew-mao-website",
+  "homepage": "http://andrewmao.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
