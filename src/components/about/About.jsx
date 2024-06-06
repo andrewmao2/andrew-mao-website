@@ -17,9 +17,10 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                Hi there! My name is Andrew Mao and I'm a rising 4th year at Georgia Tech! I'm pursuing a bachelor's in Computer Science at GT along with a certificate 
-                in Leadership & Organizational Change from the business school. In my free time I enjoy working out, running, playing sports, cooking, reading, 
-                crafting Spotify playlists (I listen to almost every genre from indie to house music), and petting dogs! Great to meet you - stay for a while!
+                Hi again! I'm Andrew and I'm a rising 4th year at Georgia Tech! In my free time I enjoy working out, running, playing sports, cooking, reading, 
+                crafting Spotify playlists (I listen to almost every genre from indie to house music), and petting dogs! My favorite biome is probably the Taiga 
+                and I'm an avid Trader Joe's enthusiast. 
+                Great to meet you - stay for a while!
                 </p>
 
                 <a download="" href={Resume} className="button button--flex">
