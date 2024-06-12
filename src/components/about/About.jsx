@@ -18,9 +18,8 @@ const About = () => {
 
                 <p className="about__description">
                 Hi again! I'm Andrew and I'm a rising 4th year at Georgia Tech! In my free time I enjoy working out, running, playing sports, cooking, reading, 
-                crafting Spotify playlists (I listen to almost every genre from indie to house music), and petting dogs! My favorite biome is probably the Taiga 
-                and I'm an avid Trader Joe's enthusiast. 
-                Great to meet you - stay for a while!
+                crafting Spotify playlists (I listen to almost every genre from indie to house music), and petting dogs! I'm also an avid Trader Joe's enthusiast and 
+                big fan of sunsets. Great to meet you - stay for a while!
                 </p>
 
                 <a download="" href={Resume} className="button button--flex">
