@@ -1,28 +1,27 @@
 import React, { useRef} from 'react';
-import emailjs from "@emailjs/browser";
 import "./contact.css";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
-
+    
         emailjs
-            .sendForm('service_t3y3zac', 'template_iz6d60f', form.current, {
-            publicKey: '1NTJW8pvNpMe5UUfw',
-            })
-            .then(
+          .sendForm('service_i1q928d', 'template_iz6d60f', form.current, {
+            publicKey: 'a4azWftVO6VBMxKSh',
+          })
+          .then(
             () => {
-                console.log('SUCCESS!');
+              console.log('SUCCESS!');
             },
             (error) => {
-                console.log('FAILED...', error.text);
+              console.log('FAILED...', error.text);
             },
-            );
-        };
-
-
+          );
+      };
+    
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Get in touch!</h2>
@@ -37,16 +36,16 @@ const Contact = () => {
                         <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">andrewmao2@gmail.com</span>
 
-                            <a href="mailto:andrewmao2@gmail.com.com" className="contact__button">Write me {""}
+                            <a href="mailto:andrewmao2@gmail.com" className="contact__button">Write me {""}
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
                         <i className="bx bxl-linkedin-square contact__card-icon"></i>
-                        <h3 className="contact__card-title">LinkedIn Message</h3>
-                            <span className="contact__card-data">https://www.linkedin.com/in/andrewmao9/</span>
+                        <h3 className="contact__card-title">LinkedIn</h3>
+                            <span className="contact__card-data">Message me on LinkedIn!</span>
 
-                            <a href="" className="contact__button">Write me {""}
+                            <a href="https://www.linkedin.com/in/andrewmao9/" className="contact__button">Write me {""}
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
