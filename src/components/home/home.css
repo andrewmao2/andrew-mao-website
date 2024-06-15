@@ -23,7 +23,7 @@
 .home__social-icon:hover {
     font-weight: bold;
     color: var(--title-color-dark);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .home__title {
@@ -197,3 +197,5 @@
         height: 22px;
     }
   }
+
+  

@@ -17,7 +17,7 @@ const Services = () => {
             <div>
               <i className="uil uil-amazon services__icon"></i>
               <h3 className="services__title">
-              Software Development <br /> Engineer Intern
+              Software Development <br /> Engineer Intern @ AWS
               </h3>
             </div>
  
@@ -27,7 +27,7 @@ const Services = () => {
               <div className="services__modal-content">
                  <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
                  <h3 className="services__modal-title">
-                 Software Development <br /> Engineer Intern
+                 Software Development <br /> Engineer Intern @ AWS
                  </h3>
                  <p className="services__modal-description">
                   Summer 2024
@@ -122,31 +122,20 @@ const Services = () => {
                  <p className="services__modal-description">
                   August 2022 - August 2023
                  </p>
-
                  <u1 className="services__modal-services.grid">
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info"> More filler more filler </p>
+                    <p className="services__modal-info"> Organized and led 75-minute weekly recitation sessions for 250+ students to teach Java and OOP principles </p>
                   </li>
 
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info"> More filler more filler </p>
+                    <p className="services__modal-info"> Wrote and graded weekly homework assignments and exams for all students while providing actionable feedback                    </p>
                   </li>
 
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info"> More filler more filler </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info"> More filler more filler </p>
-                  </li>
-
-                  <li className="services__modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services__modal-info"> More filler more filler </p>
+                    <p className="services__modal-info"> Hosted 2 hours of office hours every week dedicated to one-on-one and group student help sessions on course materials </p>
                   </li>
                  </u1>
               </div>
