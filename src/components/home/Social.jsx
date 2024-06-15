@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify } from '@fortawesome/free-brands-svg-icons/faSpotify';
 import { faStrava } from '@fortawesome/free-brands-svg-icons/faStrava';
+import { faMedium } from '@fortawesome/free-brands-svg-icons/faMedium';
+
 
 const Social = () => {
   return (
@@ -20,6 +22,9 @@ const Social = () => {
           </a>
           <a href="https://www.strava.com/athletes/128959047" className="home__social-icon" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faStrava} style={{color: "#FDB208",}} />
+          </a>
+          <a href="https://andrewmaojots.medium.com/" className="home__social-icon" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faMedium} style={{color: "#000000",}} />
           </a>
       </div>
   )
