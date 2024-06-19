@@ -44,6 +44,25 @@
     margin-bottom: var(--mb-2-5);
 }
 
+.about__text-box {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 350px;
+    transform: translate(26.5rem, -2.5rem);
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.about__additional-info {
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+
 /* breakpoints */
 @media screen and (max-width: 992px) {
     .about__container {

@@ -1,9 +1,16 @@
 import React from 'react';
-import "./about.css";
-import AboutImg from "../../assets/about.jpg";
-import Resume from "../../assets/Andrew-Mao-Resume.pdf";
+import './about.css';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
+import AboutImg1 from '../../assets/about1.jpg';
+import AboutImg2 from '../../assets/about2.jpg';
+import AboutImg3 from '../../assets/about3.jpg';
+import AboutImg4 from '../../assets/about4.jpg';
+import AboutImg5 from '../../assets/about5.jpg';
+import AboutImg6 from '../../assets/about6.jpg';
+import AboutImg7 from '../../assets/about7.jpg';
+import Resume from '../../assets/Andrew-Mao-Resume.pdf';
 import Info from './Info';
-
 
 const About = () => {
   return (
@@ -11,7 +18,29 @@ const About = () => {
         <h2 className="section__title">About Me!</h2>
         <span className="section__subtitle">My introduction</span>
         <div className="about__container container grid">
-            <img src={AboutImg} alt="" className="about__img" />
+            <Carousel showThumbs={false} infiniteLoop autoPlay showStatus={false}>
+                <div>
+                    <img src={AboutImg1} alt="About image 1" className="about__img" />
+                </div>
+                <div>
+                    <img src={AboutImg2} alt="About image 2" className="about__img" />
+                </div>
+                <div>
+                    <img src={AboutImg3} alt="About image 3" className="about__img" />
+                </div>
+                <div>
+                    <img src={AboutImg4} alt="About image 4" className="about__img" />
+                </div>
+                <div>
+                    <img src={AboutImg5} alt="About image 5" className="about__img" />
+                </div>
+                <div>
+                    <img src={AboutImg6} alt="About image 6" className="about__img" />
+                </div>
+                <div>
+                    <img src={AboutImg7} alt="About image 7" className="about__img" />
+                </div>
+            </Carousel>
 
             <div className="about__data">
                 <Info />
@@ -24,7 +53,7 @@ const About = () => {
                 <a download="" href={Resume} className="button button--flex">
                     Download my Resume!
                     <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -51,8 +80,13 @@ const About = () => {
                 </a>
             </div>
         </div>
+        <div className="about__text-box">
+            <p className="about__additional-info">
+               Swipe through to see some pics of me and my friends!
+            </p>
+        </div>
     </section>
   )
 }
 
-export default About
+export default About;
